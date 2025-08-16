@@ -1,5 +1,7 @@
 ![SIMAPROX Logo](https://placehold.co/1200x400/007bff/ffffff?text=SIMAPROX)
-# SIMAPROX (sistem manajemen proyek eksekutif)
+# SIMAPROX 
+(sistem manajemen proyek eksekutif)
+
 # Solusi Inovatif Manajemen Proyek untuk UMKM dan Perusahaan Besar
 SIMAPROX adalah sebuah platform manajemen proyek eksekutif yang dibangun dari nol (`from scratch`) dengan arsitektur modern dan modular. Sistem ini dirancang untuk menjembatani kesenjangan antara solusi manajemen proyek berbiaya tinggi dan kebutuhan bisnis di Indonesia, dari skala UMKM hingga korporasi besar.
 
@@ -46,6 +48,7 @@ SIMAPROX hadir sebagai solusi *hybrid* yang mengatasi masalah-masalah di atas me
 ```bash
 git clone https://github.com/HaKaTo99/simapro.git
 cd simapro
+
 
 
 
