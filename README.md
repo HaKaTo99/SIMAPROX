@@ -41,11 +41,12 @@ SIMAPROX hadir sebagai solusi *hybrid* yang mengatasi masalah-masalah di atas me
 --------
 
 ## 🔧 Setup Lokal
-![SIMAPROX Logo](https://placehold.co/600x200/002B7F/FFFFFF?text=SIMAPROX%0ASistem+Manajemen+Proyek+Eksekutif&font=roboto)
+![SIMAPROX Logo](https://placehold.co/1200x400/007bff/ffffff?text=SIMAPROX%0A(Sistem+Manajemen+Proyek+Eksekutif)&font=roboto)
 ### 1. Clone Repositori
 ```bash
 git clone https://github.com/HaKaTo99/simapro.git
 cd simapro
+
 
 
 
