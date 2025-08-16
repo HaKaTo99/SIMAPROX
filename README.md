@@ -43,9 +43,10 @@ Teknologi Modern: Menggunakan tumpukan teknologi (stack) terkini seperti Node.js
 Aksesibilitas Ganda: Menyediakan versi gratis untuk UMKM sambil menawarkan opsi kustomisasi dan dukungan premium untuk enterprise, memastikan setiap pelaku bisnis dapat memanfaatkan kecanggihan sistem.
 
 Visibilitas Eksekutif: Dirancang khusus dengan dasbor dan laporan komprehensif untuk memantau kemajuan, anggaran, dan risiko secara real-time, mendukung pengambilan keputusan strategis yang proaktif.
-
 Fleksibilitas Lintas Sektor: Dengan dukungan untuk multi-perusahaan, unit bisnis, dan berbagai tipe sumber daya (human, equipment, material, financial), SIMAPROX dapat diadaptasi untuk proyek di perusahaan jasa, manufaktur, dan sektor lainnya.
----
+
+
+--------
 
 ## 🔧 Setup Lokal
 
@@ -53,5 +54,6 @@ Fleksibilitas Lintas Sektor: Dengan dukungan untuk multi-perusahaan, unit bisnis
 ```bash
 git clone https://github.com/HaKaTo99/simapro.git
 cd simapro
+
 
 
