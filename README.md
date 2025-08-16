@@ -1,4 +1,4 @@
-# SIMAPRO – Sistem Informasi Manajemen Proyek
+# SIMAPROX – Sistem Informasi Manajemen Proyek Eksekutif
 
 Platform manajemen proyek seperti Primavera P6, dibuat menggunakan:
 - Backend: Node.js (Express, Sequelize, PostgreSQL)
@@ -14,3 +14,4 @@ Platform manajemen proyek seperti Primavera P6, dibuat menggunakan:
 ```bash
 git clone https://github.com/HaKaTo99/simapro.git
 cd simapro
+
