@@ -44,8 +44,9 @@ SIMAPROX hadir sebagai solusi *hybrid* yang mengatasi masalah-masalah di atas me
 ![SIMAPROX Logo](https://placehold.co/1200x150/007bff/ffffff?text=SIMAPROX%0A(Sistem+Manajemen+Proyek+Eksekutif)&font=roboto)
 ### 1. Clone Repositori
 ```bash
-git clone https://github.com/HaKaTo99/simapro.git
+git clone https://github.com/HaKaTo99/simaprox.git
 cd simapro
+
 
 
 
