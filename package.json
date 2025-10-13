@@ -1,0 +1,49 @@
+{
+  "name": "simapro-enterprise-root",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "start:prod": "cd backend && npm run start",
+    "dev": "concurrently \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "lint": "npm run lint:backend",
+    "lint:backend": "cd backend && npm run lint",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test -- --runInBand",
+    "test:backend:one": "cd backend && jest --runInBand",
+    "test:frontend": "cd frontend && npm test -- --watchAll=false",
+    "migrate": "cd backend && npm run migrate",
+    "seed": "cd backend && npm run seed",
+    "db:reset": "npm run migrate && npm run seed && npm run seed:admin",
+    "seed:admin": "cd backend && npm run seed-admin",
+    "enterprise:setup": "cd backend && node src/utils/initEnterprise.js && npm run seed-admin",
+    "reset:passwords": "cd backend && npm run reset-passwords",
+    "compose:up": "docker compose up -d --build",
+    "compose:down": "docker compose down",
+    "baseline:refresh": "cd backend && npm run baseline:refresh",
+    "baseline:refresh:migrate": "cd backend && npm run baseline:refresh:migrate",
+    "baseline:check": "cd backend && npm run baseline:check",
+    "seed:survey": "npm --prefix backend run seed:survey",
+    "seed:survey:all": "npm --prefix backend run seed:survey:all",
+    "migrate:dependencies": "npm --prefix backend run migrate:dependencies"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@types/testing-library__jest-dom": "^5.14.9",
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "react-window": "^1.8.6",
+    "swagger-jsdoc": "^6.2.8"
+  }
+}
