@@ -1,0 +1,29 @@
+{
+  "name": "simapro-backend",
+  "version": "1.0.0",
+  "description": "SIMAPRO Enterprise Backend API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "migrate": "node src/utils/migrate.js",
+    "seed:survey": "node src/utils/seedSurveyActivities.js",
+    "seed:survey:all": "node src/utils/seedSurveyAll.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express-rate-limit": "^8.1.0",
+    "express-validator": "^7.2.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "multer": "^2.0.2",
+    "pg": "^8.16.3",
+    "pino": "^10.0.0",
+    "prom-client": "^15.1.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
